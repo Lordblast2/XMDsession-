@@ -70,25 +70,25 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "KANGO-XMD~" + string_session;
+                        let md = "SPARK-XMD~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*╭━━━━━━━━━━━━━━━━━━━━━╮
-┃  🚀 KANGO-XMD USER 🚀  ┃
+┃  🚀 CHRISSPARK-XMD USER 🚀  ┃
 ╰━━━━━━━━━━━━━━━━━━━━━╯
 
-👋🏻 Hello there, KANGO-XMD User!  
+👋🏻 Hello there, CHRISSPARK-XMD User!  
 
 > ⚠️ *Do not share your session ID with your GF!* 😂  
 
-✅ **Thanks for using KANGO-XMD!** 🚩  
+✅ **Thanks for using CHRISSPARK-XMD!** 🚩  
 
 ━━━━━━━━━━━━━━━━━━━━━━━  
 
 📢 **Join our WhatsApp Channel:**  
-🔗 https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E  
+🔗 https://whatsapp.com/channel/0029Vb5qc6N2Jl8EcVBv0t  
 
 ⭐ **Don't forget to fork the repo:**  
-🔗 https://github.com/OfficialKango/KANGO-XMD  
+🔗 https://github.com/Xchristech/CHRISSPARK-XMD  
 
 ━━━━━━━━━━━━━━━━━━━━━━━  
 
@@ -99,7 +99,7 @@ contextInfo: {
 externalAdReply: {
 title: " 𝖇𝖔𝖙 𝖈𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
 thumbnailUrl: "https://files.catbox.moe/7pg2gp.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E",
+sourceUrl: "https://whatsapp.com/channel/0029Vb5qc6N2Jl8EcVBv0t",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -109,33 +109,33 @@ renderLargerThumbnail: true
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
                             let desc = `*╭━━━━━━━━━━━━━━━━━━━━━╮
-┃  🚀 KANGO-XMD USER 🚀  ┃
+┃  🚀 CHRISSPARK-XMD USER 🚀  ┃
 ╰━━━━━━━━━━━━━━━━━━━━━╯
 
-👋🏻 Hello there, KANGO-XMD User!  
+👋🏻 Hello there, CHRISSPARK-XMD User!  
 
 > ⚠️ *Do not share your session ID with your GF!* 😂  
 
-✅ **Thanks for using KANGO-XMD!** 🚩  
+✅ **Thanks for using CHRISSPARK-XMD!** 🚩  
 
 ━━━━━━━━━━━━━━━━━━━━━━━  
 
 📢 **Join our WhatsApp Channel:**  
-🔗 https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E  
+🔗 https://whatsapp.com/channel/0029Vb5qc6N2Jl8EcVBv0t  
 
 ⭐ **Don't forget to fork the repo:**  
-🔗 https://github.com/OfficialKango/KANGO-XMD  
+🔗 https://github.com/Xchristech/CHRISSPARK-XMD  
 
 ━━━━━━━━━━━━━━━━━━━━━━━  
 
-> *© Powered by HECTOR MANUEL 🚀*`;
+> *© Powered by CHRIS GAAJU 🚀*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: " 𝖒𝖉 𝖈𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
+title: " xmd 𝖈𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
 thumbnailUrl: "https://i.imgur.com/GVW7aoD.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E",
+sourceUrl: "https://whatsapp.com/channel/0029Vb5qc6N2Jl8EcVBv0t",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
